@@ -25,7 +25,7 @@ body {
   min-height: 100vh;
   font-family: "JetBrains Mono", monospace;
   font-size: 1.8rem;
-  background-color: var(--gray-darker);
+  background-color: var(--gray-darkest);
 }
 
 a:link,

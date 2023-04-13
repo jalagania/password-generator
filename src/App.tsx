@@ -5,16 +5,20 @@ import Range from "./components/Range";
 import Options from "./components/Options";
 import Strength from "./components/Strength";
 import Button from "./components/Button";
+import Attribution from "./components/Attribution";
 
 function App() {
   return (
     <div className="container">
       <div className="wrapper">
         <Display />
-        <Range />
-        <Options />
-        <Strength />
-        <Button />
+        <div className="app-body">
+          <Range />
+          <Options />
+          <Strength />
+          <Button />
+        </div>
+        <Attribution />
       </div>
     </div>
   );

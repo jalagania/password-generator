@@ -1,0 +1,15 @@
+.display-box {
+  margin-bottom: 2.4rem;
+  padding: 1.9rem 3.2rem;
+  background-color: var(--gray-darker);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.password-text {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+}

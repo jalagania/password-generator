@@ -1,0 +1,32 @@
+.btn-generate {
+  width: 100%;
+  margin-top: 3.2rem;
+  padding: 2rem 0;
+  background-color: var(--green);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: var(--gray-darker);
+  border: 2px solid transparent;
+}
+
+.btn-generate span {
+  margin-right: 2.4rem;
+}
+
+.btn-generate svg {
+  fill: var(--gray-darker);
+}
+
+@media (hover: hover) {
+  .btn-generate:hover {
+    color: var(--green);
+    background-color: transparent;
+    border: 2px solid var(--green);
+  }
+
+  .btn-generate:hover svg {
+    fill: var(--green);
+  }
+}

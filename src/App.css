@@ -1,7 +1,19 @@
 .container {
   height: 100vh;
+  padding: 0 1.6rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.wrapper {
+  max-width: 54rem;
+  flex-grow: 1;
+}
+
+.app-body {
+  padding: 3.2rem;
+  color: var(--white);
+  background-color: var(--gray-darker);
 }

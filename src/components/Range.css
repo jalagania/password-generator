@@ -1,0 +1,45 @@
+.range-box {
+  width: 100%;
+}
+
+.range-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.range-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: var(--white);
+}
+
+.range-amount {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  color: var(--green);
+}
+
+.range-slider {
+  appearance: none;
+  width: 100%;
+  margin-top: 2rem;
+  height: 0.8rem;
+  background-color: var(--green);
+}
+
+.range-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.range-slider::-webkit-slider-thumb:hover {
+  border: 2px solid var(--green);
+  background-color: var(--gray-darkest);
+}

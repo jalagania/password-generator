@@ -2,13 +2,14 @@
   font-size: 1.6rem;
   font-weight: bold;
   text-align: center;
-  color: #00494d;
+  color: var(--white);
+  margin-top: 3rem;
 }
 
 .attribution a:link,
 a:visited {
   text-decoration: none;
-  color: #26c0ab;
+  color: var(--green);
 }
 
 .attribution a:hover {
