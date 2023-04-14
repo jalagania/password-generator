@@ -12,6 +12,12 @@
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 4.2rem;
+  color: var(--white);
+  opacity: 0.25;
+}
+
+.password-text.white {
+  opacity: 1;
 }
 
 @media (hover: hover) {

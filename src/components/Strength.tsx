@@ -1,11 +1,14 @@
+import { useGlobalContext } from "../context";
 import "./Strength.css";
 
 function Strength() {
+  const { strength } = useGlobalContext();
+
   return (
     <div className="strength-box">
       <p>Strength</p>
       <div className="bars-box">
-        <p>Medium</p>
+        <p>{strength}</p>
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
