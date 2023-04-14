@@ -1,0 +1,35 @@
+.options-box {
+  margin-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.option button {
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid var(--white);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: var(--white);
+}
+
+@media (hover: hover) {
+  .option button:hover {
+    border: 2px solid var(--green);
+  }
+}

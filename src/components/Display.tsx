@@ -1,6 +1,5 @@
-import "./Display.css";
-
 import iconCopy from "../assets/icon-copy.svg";
+import "./Display.css";
 
 function Display() {
   return (

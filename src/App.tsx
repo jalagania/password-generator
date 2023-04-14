@@ -1,11 +1,10 @@
 import "./App.css";
-
-import Display from "./components/Display";
-import Range from "./components/Range";
-import Options from "./components/Options";
-import Strength from "./components/Strength";
-import Button from "./components/Button";
 import Attribution from "./components/Attribution";
+import Button from "./components/Button";
+import Display from "./components/Display";
+import Options from "./components/Options";
+import Range from "./components/Range";
+import Strength from "./components/Strength";
 
 function App() {
   return (
