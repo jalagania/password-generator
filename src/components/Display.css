@@ -13,3 +13,9 @@
   font-weight: 700;
   line-height: 4.2rem;
 }
+
+@media (hover: hover) {
+  .btn-copy:hover img {
+    filter: brightness(5);
+  }
+}

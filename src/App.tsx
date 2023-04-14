@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="container">
       <div className="wrapper">
+        <h1 className="app-title">Password Generator</h1>
         <Display />
         <div className="app-body">
           <Range />

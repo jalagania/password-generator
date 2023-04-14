@@ -11,7 +11,7 @@
   gap: 2.4rem;
 }
 
-.option button {
+.btn-check {
   width: 2rem;
   height: 2rem;
   border: 2px solid var(--white);
@@ -19,6 +19,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn-check img {
+  display: none;
+  pointer-events: none;
+}
+
+.btn-check.selected {
+  background-color: var(--green);
+}
+
+.btn-check.selected img {
+  display: block;
 }
 
 .option p {

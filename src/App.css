@@ -12,6 +12,14 @@
   flex-grow: 1;
 }
 
+.app-title {
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #817d92;
+  margin-bottom: 3rem;
+}
+
 .app-body {
   padding: 3.2rem;
   color: var(--white);
