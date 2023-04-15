@@ -17,7 +17,7 @@ function ContextProvider(props: PropsWithChildren) {
   const [password, setPassword] = useState<string>("");
   const [passwordLength, setPasswordLength] = useState<number>(0);
   const [optionsArray, setOptionsArray] = useState<string[]>([]);
-  const [strength, setStrength] = useState<string>("too weak!");
+  const [strength, setStrength] = useState<string>("");
 
   return (
     <AppContext.Provider
