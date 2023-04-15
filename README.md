@@ -2,7 +2,7 @@
 
 ### Links
 
-- Live Site URL:
+- Live Site URL: https://password-generator-beka.netlify.app
 
 ### Built with
 
