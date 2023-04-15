@@ -1,8 +1,36 @@
+import { useEffect } from "react";
 import { useGlobalContext } from "../context";
 import "./Strength.css";
 
 function Strength() {
-  const { strength } = useGlobalContext();
+  const { strength, setStrength, passwordLength, optionsArray } =
+    useGlobalContext();
+
+  useEffect(() => {
+    if (passwordLength === 0) {
+      setStrength("");
+      return;
+    }
+
+    if (passwordLength < 5) {
+      setStrength("too weak!");
+    }
+
+    if (passwordLength > 5) {
+      setStrength("weak");
+    }
+
+    if (passwordLength > 9 || (passwordLength > 5 && optionsArray.length > 2)) {
+      setStrength("medium");
+    }
+
+    if (
+      passwordLength > 14 ||
+      (passwordLength > 11 && optionsArray.length > 2)
+    ) {
+      setStrength("strong");
+    }
+  }, [passwordLength, optionsArray]);
 
   return (
     <div className="strength-box">

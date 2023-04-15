@@ -1,11 +1,20 @@
+import { generate } from "generate-password-ts";
 import { useGlobalContext } from "../context";
 import "./Button.css";
 
 function Button() {
-  const { setPassword } = useGlobalContext();
+  const { setPassword, passwordLength, optionsArray } = useGlobalContext();
 
   function handleGenerate() {
-    setPassword("suckit88");
+    const lowercase = optionsArray.length === 0 ? true : false;
+    const password = generate({
+      length: passwordLength,
+      uppercase: optionsArray.includes("uppercase"),
+      lowercase: optionsArray.includes("lowercase") || lowercase,
+      numbers: optionsArray.includes("numbers"),
+      symbols: optionsArray.includes("symbols"),
+    });
+    setPassword(password);
   }
 
   return (
