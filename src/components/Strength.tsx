@@ -20,7 +20,7 @@ function Strength() {
       setStrength("weak");
     }
 
-    if (passwordLength > 9 || (passwordLength > 6 && optionsArray.length > 2)) {
+    if (passwordLength > 9 || (passwordLength > 7 && optionsArray.length > 2)) {
       setStrength("medium");
     }
 
