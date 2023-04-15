@@ -7,7 +7,7 @@ function Strength() {
   return (
     <div className="strength-box">
       <p>Strength</p>
-      <div className="bars-box">
+      <div className={`bars-box ${strength.replace(/\W/g, "")}`}>
         <p>{strength}</p>
         <div className="bar"></div>
         <div className="bar"></div>

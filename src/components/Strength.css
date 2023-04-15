@@ -23,6 +23,26 @@
   gap: 0.8rem;
 }
 
+.bars-box.tooweak div:nth-child(2) {
+  background-color: var(--red);
+  border: 2px solid var(--red);
+}
+
+.bars-box.weak div:nth-child(-n + 3) {
+  background-color: var(--orange);
+  border: 2px solid var(--orange);
+}
+
+.bars-box.medium div:not(:last-child) {
+  background-color: var(--yellow);
+  border: 2px solid var(--yellow);
+}
+
+.bars-box.strong div {
+  background-color: var(--green);
+  border: 2px solid var(--green);
+}
+
 .bars-box p {
   font-size: 2.4rem;
   font-weight: 700;
@@ -30,6 +50,7 @@
   color: var(--white);
   text-transform: uppercase;
   margin-right: 1rem;
+  letter-spacing: 0.5px;
 }
 
 .bar {
